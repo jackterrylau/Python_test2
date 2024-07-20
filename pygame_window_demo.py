@@ -17,7 +17,7 @@ if __name__ == '__main__':
     # font_object.render(text, "去除鋸齒?", Text Color, Text Background Color)
     pgWindowText = pgFontH1.render("Hello Pygame World",True,(0,0,0))
     # Print text on pygame window which point = (x,y) = (30,50)
-    pgWindow.blit(pgWindowText, (30,50))
+    pgWindow.blit(pgWindowText, (30,50)) 
 
     pgFontContent = pygame.font.Font(None, 24)
     pgWindowContentText1 = pgFontContent.render("Step 1. initialize pygame module",True,(0,0,0))
